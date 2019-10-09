@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8?>
+<!DOCTYPE suite SYSTEM "http://testng.org./testng-1.0.dtd">
+<suite name="Walmart Application Automation Test Suite">
+<test name="Walmart app Test Cases">
+<classes>
+<class name="com.walmart.qa.TestData.HomePageTest">
+<class name="com.walmart.qa.TestData.LoginPageTest">
+<class name="com.walmart.qa.TestData.PersonalSettingPagetest">
+
+</class>
+</classes>
+</test>
+</suite>

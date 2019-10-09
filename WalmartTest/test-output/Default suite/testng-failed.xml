@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.walmart.TestData.HomePageTest">
+        <methods>
+          <include name="verifyTotalProduct"/>
+          <include name="verifyPersonalSettingPageTest"/>
+          <include name="verifyAddressesTest"/>
+          <include name="verifysearchOption"/>
+          <include name="verifysearchResult"/>
+          <include name="verifysortbyPrice"/>
+          <include name="verifyOrderHistoryTest"/>
+          <include name="setUp"/>
+          <include name="verifyMyAccountPageTest"/>
+          <include name="verifyMyRecommendationPageTest"/>
+          <include name="verifysortByName"/>
+          <include name="verifyPriceofProduct"/>
+          <include name="verifyCreditCardTest"/>
+          <include name="verifySignOutPageTest"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyMyListPageTest"/>
+          <include name="verifyFilterByBrand"/>
+          <include name="verifyMySubscriptionsTest"/>
+        </methods>
+      </class> <!-- com.walmart.TestData.HomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
